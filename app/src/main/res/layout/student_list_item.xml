@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/student_list_item"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/student_item_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="王斌"/>
+    <TextView
+        android:id="@+id/student_item_department"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="理学院"/>
+    <TextView
+        android:id="@+id/student_item_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="201211002113"/>
+
+</LinearLayout>

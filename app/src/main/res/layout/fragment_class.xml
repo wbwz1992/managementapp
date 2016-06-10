@@ -1,0 +1,96 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.study.robin.managementapp.ClassFragment">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="院系"/>
+            <Spinner
+                android:id="@+id/class_department_spinner"
+                android:layout_width="wrap_content"
+                android:layout_height="36dp">
+            </Spinner>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="专业"/>
+            <Spinner
+                android:id="@+id/class_major_spinner"
+                android:layout_width="wrap_content"
+                android:layout_height="36dp">
+            </Spinner>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="班级"/>
+            <Spinner
+                android:id="@+id/class_class_spinner"
+                android:layout_width="wrap_content"
+                android:layout_height="36dp">
+            </Spinner>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/class_search_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="搜索"
+            android:layout_gravity="center"/>
+        <Button
+            android:id="@+id/class_insert_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="添加"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/test_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/class_progressBar"
+        android:layout_gravity="center_horizontal"
+        android:visibility="gone"/>
+
+    <ListView
+        android:id="@+id/class_search_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </ListView>
+
+</LinearLayout>

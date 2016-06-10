@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">河南工程学院</string>
+    <string name="open">打开</string>
+    <string name="close">关闭</string>
+    <array name="item_list">
+        <item>学生</item>
+        <item>班级</item>
+        <item>课程</item>
+        <item>成绩</item>
+        <item>登出</item>
+    </array>
+    <array name="student_sex">
+        <item>性别</item>
+        <item>男</item>
+        <item>女</item>
+    </array>
+    <array name="student_db">
+        <item>_id</item>
+        <item>name</item>
+        <item>sex</item>
+        <item>department</item>
+        <item>major</item>
+        <item>class</item>
+        <item>position</item>
+        <item>class_id</item>
+    </array>
+    <array name="class_db">
+        <item>_id</item>
+        <item>department</item>
+        <item>major</item>
+        <item>class</item>
+        <item>count</item>
+    </array>
+    <array name="lesson_daytime">
+        <item>08:00-10:00</item>
+        <item>10:00-12:00</item>
+        <item>14:00-16:00</item>
+        <item>16:00-18:00</item>
+    </array>
+    <array name="lesson_week">
+        <item>一</item>
+        <item>二</item>
+        <item>三</item>
+        <item>四</item>
+        <item>五</item>
+        <item>六</item>
+        <item>日</item>
+    </array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_login">登陆</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+</resources>

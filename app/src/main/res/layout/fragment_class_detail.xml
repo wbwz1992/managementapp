@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.study.robin.managementapp.StudentDetailFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/class_detail_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="班级代码：" />
+    <TextView
+        android:id="@+id/class_detail_department"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="院系：" />
+    <TextView
+        android:id="@+id/class_detail_major"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="专业：" />
+    <TextView
+        android:id="@+id/class_detail_class"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="班级：" />
+    <TextView
+        android:id="@+id/class_detail_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="人数：" />
+    <Button
+        android:id="@+id/class_change_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="修改"
+        android:layout_gravity="center"/>
+    <Button
+        android:id="@+id/class_delete_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="删除"
+        android:layout_gravity="center"/>
+    <ProgressBar
+        android:id="@+id/class_detail_progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:visibility="gone"/>
+
+</LinearLayout>
